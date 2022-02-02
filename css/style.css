@@ -181,24 +181,32 @@ strong {
   height: 250px;
   margin-bottom: 36px;
 }
+/*
 .botao-academia {
+ 
+}
+*/
+.btn {
+  display: block;
+  text-align: center;
   width: 175px;
-  height: 44px;
+  padding: 10px 0 10px 0;
   margin-top: 36px;
   background: #a24424;
   border-radius: 20px;
-  text-align: center;
+  color: #dbdbdb;
 }
-
 /*footer*/
 footer {
   margin-top: 256px;
   padding: 100px;
   background: tomato;
 }
+footer p {
+  color: #191411;
+}
 .containe-base {
   max-width: 1400px;
   margin: 0 auto;
   text-align: start;
-  background: blue;
 }
