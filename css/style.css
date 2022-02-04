@@ -1,18 +1,7 @@
-body,
-div,
-a,
-h1,
-p,
-li,
-ul,
-img,
-hr,
-i,
-:hover,
-footer {
-  margin: 0xp;
-  padding: 0xp;
-  border: 0px;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 a {
   text-decoration: none;
@@ -24,9 +13,6 @@ ul {
 img {
   max-width: 100%;
   display: block;
-}
-* {
-  box-sizing: border-box;
 }
 hr {
   margin-inline-start: auto;
@@ -43,7 +29,13 @@ strong {
 /*personal description*/
 .personal-description {
   width: 499px;
-  height: 316px;
+  height: 350px;
+}
+.name-title {
+  margin-bottom: 32px;
+}
+.name-developer {
+  margin: 0 0 32px 0;
 }
 .menu {
   max-width: 1400px;
@@ -63,28 +55,13 @@ strong {
 .body-name {
   color: #191411;
 }
-
-.links-redes {
-  /*
-  margin: 10px auto 0 auto;
-  */
-  text-align: start;
+.links-redes li + li {
+  margin-left: 16px;
 }
-/*
-.containe-link {
-  background: blue;
-}
-*/
 .links-redes li i {
   color: #191411;
   font-size: 30px;
 }
-
-/*
-.links-redes li + li {
-  margin-left: 20px;
-}
-*/
 .links-redes li i:hover {
   color: #a24424;
 }
@@ -95,6 +72,11 @@ strong {
   justify-content: space-between;
   align-items: baseline;
 }
+/*
+.links-redes {
+  padding: 0;
+}
+*/
 .muda {
   display: inline-block;
 }
@@ -150,7 +132,7 @@ strong {
 .description-experience strong {
   color: #a24424;
 }
-.description-experience p {
+.description-experience > p {
   margin-top: 36px;
   width: 502px;
   height: 135px;
@@ -166,17 +148,17 @@ strong {
   max-width: 120px;
   flex: 1 1 120px;
 }
-.item-language {
-  margin: 4px;
-  border-radius: 20px;
+.item-language p {
   text-align: center;
-  background: #a24424;
-  color: #dbdbdb;
+  margin: 16px;
 }
 .item-language {
   width: 153px;
   height: 54px;
   border-radius: 20px;
+  margin: 4px;
+  background: #a24424;
+  color: #dbdbdb;
 }
 /*meu trabalho*/
 .description-myWork {
