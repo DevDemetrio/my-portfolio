@@ -58,7 +58,7 @@ strong {
 .links-redes li + li {
   margin-left: 16px;
 }
-.links-redes li i {
+.links-redes li a {
   color: #191411;
   font-size: 30px;
 }
@@ -201,10 +201,19 @@ footer {
   background: #a24424;
 }
 footer p {
-  color: #191411;
+  /*color: #191411;*/
+  color: #dbdbdb;
 }
 .containe-base {
   max-width: 1400px;
   margin: 0 auto;
   text-align: start;
+}
+.propaganda {
+  font-size: 1.5rem;
+  margin-bottom: 32px;
+}
+
+.links-redes li i:hover {
+  color: #a24424;
 }
