@@ -62,7 +62,7 @@ strong {
   color: #191411;
   font-size: 30px;
 }
-.links-redes li i:hover {
+.links-redes li a:hover {
   color: #a24424;
 }
 .links-line {
@@ -179,11 +179,10 @@ strong {
   height: 250px;
   margin-top: 36px;
 }
-/*
-.botao-academia {
- 
+.projeto-academia h1 {
+  margin-bottom: 16px;
 }
-*/
+
 .botao-projetos {
   width: 175px;
   display: block;
@@ -193,6 +192,7 @@ strong {
   background: #a24424;
   text-align: center;
   color: #dbdbdb;
+  letter-spacing: 0.1rem;
 }
 /*footer*/
 footer {
@@ -200,20 +200,33 @@ footer {
   padding: 100px;
   background: #a24424;
 }
-footer p {
-  /*color: #191411;*/
-  color: #dbdbdb;
-}
-.containe-base {
+.containe-rodape {
   max-width: 1400px;
   margin: 0 auto;
-  text-align: start;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+footer p {
+  color: #191411;
 }
 .propaganda {
   font-size: 1.5rem;
-  margin-bottom: 32px;
+  margin-bottom: 16px;
+}
+.links-redes-rodape {
+  display: flex;
+  flex-wrap: wrap;
+}
+.links-redes-rodape li a {
+  color: #191411;
+  font-size: 30px;
+}
+.links-redes-rodape li + li {
+  margin-left: 16px;
 }
 
-.links-redes li i:hover {
-  color: #a24424;
+.links-redes-rodape li a:hover {
+  color: #dbdbdb;
 }
