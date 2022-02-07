@@ -194,6 +194,34 @@ strong {
   color: #dbdbdb;
   letter-spacing: 0.1rem;
 }
+
+/*Projeto academia*/
+.containe-bg {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+.containne-academia {
+  max-width: 1400px;
+  margin-top: 128px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.containne-academia > div {
+  flex: 1 1 300px;
+}
+.descricao-projeto h1 {
+  margin-bottom: 32px;
+}
+.language-academia {
+  margin-top: 32px;
+}
+.languagem-academia-bg {
+  margin-top: 32px;
+}
+.languagem-academia-bg h1 {
+  margin-bottom: 32px;
+}
 /*footer*/
 footer {
   margin-top: 256px;
