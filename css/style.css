@@ -167,8 +167,8 @@ strong {
 .description-myWork p {
   width: 502px;
   height: 238px;
-  margin-top: 36px;
-  margin-bottom: 36px;
+  margin-top: 32px;
+  margin-bottom: 32px;
   font-size: 1.5em;
   line-height: 35px;
 }
@@ -177,7 +177,7 @@ strong {
 .projeto-academia {
   width: 480px;
   height: 250px;
-  margin-top: 36px;
+  margin-top: 32px;
 }
 .projeto-academia h1 {
   margin-bottom: 16px;
