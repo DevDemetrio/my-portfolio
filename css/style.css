@@ -40,6 +40,7 @@ strong {
 .menu {
   max-width: 1400px;
   margin: 0 auto;
+  padding: 0 10px 0 10px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -95,14 +96,20 @@ strong {
 /*personal*/
 .content {
   max-width: 1400px;
-  padding-top: 100px;
   margin: 0 auto;
+  padding: 100px 10px 0 10px;
 }
 .personal {
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
   text-align: right;
+}
+.personal-description h1 {
+  padding-left: 20px;
+}
+.personal-description p {
+  padding-left: 20px;
 }
 .personal > div {
   flex: 1 1 300px;
