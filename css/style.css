@@ -207,12 +207,23 @@ strong {
   max-width: 1400px;
   margin: 0 auto;
 }
+.immagem-academia {
+  padding: 10px;
+}
+.descricao-projeto {
+  padding: 10px;
+}
 .containne-academia {
   max-width: 1400px;
   margin-top: 128px;
+
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+}
+.descricao-projeto > p {
+  line-height: 35px;
+  font-size: 1.5em;
 }
 .containne-academia > div {
   flex: 1 1 300px;
@@ -264,4 +275,41 @@ footer p {
 
 .links-redes-rodape li a:hover {
   color: #dbdbdb;
+}
+@media (max-width: 390px) {
+  .content {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 64px 10px 0 10px;
+  }
+  .name-title {
+    font-size: 2em;
+
+    text-align: center;
+  }
+  .name-developer {
+    font-size: 1.8em;
+
+    text-align: center;
+  }
+  .personal-description p {
+    text-align: left;
+  }
+  .links-line > hr {
+    max-width: 20rem;
+    width: 100%;
+    height: 0.05rem;
+
+    margin-left: 0;
+
+    border: none;
+    background: #191411;
+  }
+  .logo-name {
+    margin: 64px 0 64px 0;
+    font-size: 1.8em;
+  }
+  .description-myWork {
+    margin-top: 128px;
+  }
 }
