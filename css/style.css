@@ -609,6 +609,16 @@ footer p {
   .description-experience {
     margin-bottom: 128px;
   }
+  footer {
+    margin-top: 128px;
+    padding: 50px;
+    background: #a24424;
+  }
+  .links-redes-rodape {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 16px;
+  }
 }
 
 @media (max-width: 728px) {
@@ -678,6 +688,17 @@ footer p {
   }
   .description-experience {
     margin-bottom: 128px;
+  }
+
+  footer {
+    margin-top: 256px;
+    padding: 50px;
+    background: #a24424;
+  }
+  .links-redes-rodape {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 16px;
   }
 }
 
@@ -749,6 +770,16 @@ footer p {
   .description-experience {
     margin-bottom: 128px;
   }
+  footer {
+    margin-top: 256px;
+    padding: 50px;
+    background: #a24424;
+  }
+  .links-redes-rodape {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 16px;
+  }
 }
 
 @media (max-width: 465px) {
@@ -810,13 +841,34 @@ footer p {
   .description-experience > p {
     margin-top: 36px;
     width: 352px;
-    height: 135px;
+    height: 247px;
   }
   .experience {
-    margin-top: 220px;
+    margin: 256px 0 16px 0;
     display: block;
+    align-items: center;
+    max-width: 360px;
+    height: 530px;
   }
   .description-experience {
     margin-bottom: 256px;
+    max-width: 352px;
+    height: 310px;
+  }
+  .language-description {
+    position: relative;
+    bottom: 230px;
+    right: 3px;
+  }
+
+  footer {
+    margin-top: 256px;
+    padding: 50px;
+    background: #a24424;
+  }
+  .links-redes-rodape {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 16px;
   }
 }
