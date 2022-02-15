@@ -73,14 +73,7 @@ strong {
   justify-content: space-between;
   align-items: baseline;
 }
-/*
-.links-redes {
-  padding: 0;
-}
-*/
-.muda {
-  display: inline-block;
-}
+
 .links-line > hr {
   max-width: 20rem;
   width: 100%;
@@ -615,5 +608,215 @@ footer p {
   }
   .description-experience {
     margin-bottom: 128px;
+  }
+}
+
+@media (max-width: 728px) {
+  .content {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 64px 10px 0 10px;
+  }
+  .personal-description h1 {
+    padding-left: 5px;
+  }
+  .personal-description p {
+    padding-left: 5px;
+  }
+  .name-title {
+    margin-top: 16px;
+    font-size: 2em;
+    text-align: left;
+  }
+  .name-developer {
+    margin-top: 16px;
+    font-size: 1.5em;
+    text-align: left;
+  }
+  .personal-description p {
+    text-align: left;
+  }
+  .links-line > hr {
+    max-width: 20rem;
+    width: 100%;
+    height: 0.05rem;
+    margin-left: 0;
+    border: none;
+    background: #191411;
+  }
+  .logo-name {
+    margin: 64px 0 64px 0;
+    font-size: 1.8em;
+  }
+  .description-myWork {
+    margin-top: 64px;
+  }
+  .containe-myWork {
+    margin-top: 32px;
+  }
+  .description-myWork p {
+    width: 358px;
+    height: 238px;
+    margin-top: 32px;
+    margin-bottom: 128px;
+    font-size: 1.5em;
+    line-height: 35px;
+  }
+  .projeto-academia {
+    width: 360px;
+    height: 250px;
+    margin-top: 32px;
+  }
+  .description-experience > p {
+    margin-top: 36px;
+    width: 352px;
+    height: 135px;
+  }
+  .experience {
+    margin-top: 256px;
+    display: block;
+  }
+  .description-experience {
+    margin-bottom: 128px;
+  }
+}
+
+@media (max-width: 631px) {
+  .content {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 64px 10px 0 10px;
+  }
+  .personal-description h1 {
+    padding-left: 5px;
+  }
+  .personal-description p {
+    padding-left: 5px;
+  }
+  .name-title {
+    margin-top: 16px;
+    font-size: 2em;
+    text-align: left;
+  }
+  .name-developer {
+    margin-top: 16px;
+    font-size: 1.5em;
+    text-align: left;
+  }
+  .personal-description p {
+    text-align: left;
+  }
+  .links-line > hr {
+    max-width: 20rem;
+    width: 100%;
+    height: 0.05rem;
+    margin-left: 0;
+    border: none;
+    background: #191411;
+  }
+  .logo-name {
+    margin: 64px 0 64px 0;
+    font-size: 1.8em;
+  }
+  .description-myWork {
+    margin-top: 64px;
+  }
+  .containe-myWork {
+    margin-top: 32px;
+  }
+  .description-myWork p {
+    width: 358px;
+    height: 238px;
+    margin-top: 32px;
+    margin-bottom: 128px;
+    font-size: 1.5em;
+    line-height: 35px;
+  }
+  .projeto-academia {
+    width: 360px;
+    height: 250px;
+    margin-top: 32px;
+  }
+  .description-experience > p {
+    margin-top: 36px;
+    width: 352px;
+    height: 135px;
+  }
+  .experience {
+    margin-top: 128px;
+    display: block;
+  }
+  .description-experience {
+    margin-bottom: 128px;
+  }
+}
+
+@media (max-width: 465px) {
+  .content {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 64px 10px 0 10px;
+  }
+  .personal-description h1 {
+    padding-left: 5px;
+  }
+  .personal-description p {
+    padding-left: 5px;
+  }
+  .name-title {
+    margin-top: 16px;
+    font-size: 2em;
+    text-align: left;
+  }
+  .name-developer {
+    margin-top: 16px;
+    font-size: 1.5em;
+    text-align: left;
+  }
+  .personal-description p {
+    text-align: left;
+  }
+  .links-line > hr {
+    max-width: 20rem;
+    width: 100%;
+    height: 0.05rem;
+    margin-left: 0;
+    border: none;
+    background: #191411;
+  }
+  .logo-name {
+    margin: 64px 0 64px 0;
+    font-size: 1.8em;
+  }
+  .description-myWork {
+    margin-top: 64px;
+  }
+  .containe-myWork {
+    margin-top: 32px;
+  }
+  .description-myWork p {
+    width: 358px;
+    height: 238px;
+    margin-top: 32px;
+    margin-bottom: 128px;
+    font-size: 1.5em;
+    line-height: 35px;
+  }
+  .projeto-academia {
+    width: 360px;
+    height: 250px;
+    margin-top: 32px;
+  }
+  .description-experience > p {
+    margin-top: 36px;
+    width: 352px;
+    height: 135px;
+  }
+  .experience {
+    margin-top: 220px;
+    display: block;
+  }
+  .description-experience {
+    margin-bottom: 256px;
   }
 }
