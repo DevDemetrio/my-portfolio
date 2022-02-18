@@ -209,7 +209,6 @@ strong {
 .containne-academia {
   max-width: 1400px;
   margin-top: 128px;
-
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -870,5 +869,377 @@ footer p {
     display: flex;
     flex-wrap: wrap;
     margin-top: 16px;
+  }
+}
+
+@media (max-width: 390px) {
+  .content {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 64px 10px 0 10px;
+  }
+  .personal-description h1 {
+    padding-left: 5px;
+  }
+  .personal-description p {
+    padding-left: 5px;
+  }
+  .name-title {
+    margin-top: 16px;
+    font-size: 2em;
+    text-align: left;
+  }
+  .name-developer {
+    margin-top: 16px;
+    font-size: 1.5em;
+    text-align: left;
+  }
+  .personal-description p {
+    text-align: left;
+  }
+  .links-line > hr {
+    max-width: 20rem;
+    width: 100%;
+    height: 0.05rem;
+    margin-left: 0;
+    border: none;
+    background: #191411;
+  }
+  .logo-name {
+    margin: 64px 0 64px 0;
+    font-size: 1.8em;
+  }
+  .description-myWork {
+    margin-top: 64px;
+  }
+  .containe-myWork {
+    margin-top: 32px;
+  }
+  .description-myWork p {
+    width: 358px;
+    height: 238px;
+    margin-top: 32px;
+    margin-bottom: 128px;
+    font-size: 1.5em;
+    line-height: 35px;
+  }
+  .projeto-academia {
+    width: 360px;
+    height: 250px;
+    margin-top: 32px;
+  }
+  .description-experience > p {
+    margin-top: 36px;
+    width: 352px;
+    height: 247px;
+  }
+  .experience {
+    margin: 330px 0 16px 0;
+    display: block;
+    align-items: center;
+    max-width: 360px;
+    height: 530px;
+  }
+  .description-experience {
+    margin-bottom: 256px;
+    max-width: 352px;
+    height: 310px;
+  }
+  .language-description {
+    position: relative;
+    bottom: 230px;
+    right: 3px;
+  }
+
+  footer {
+    margin-top: 256px;
+    padding: 50px;
+    background: #a24424;
+  }
+  .links-redes-rodape {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 16px;
+  }
+  /*projeto*/
+  .language-description {
+    margin-top: 256px;
+  }
+}
+@media (max-width: 391px) {
+  .language-description {
+    margin-top: 280px;
+  }
+  footer {
+    margin-top: 16px;
+    padding: 50px;
+    background: #a24424;
+  }
+}
+@media (max-width: 392px) {
+  .language-description {
+    margin-top: 250px;
+  }
+  footer {
+    margin-top: 16px;
+    padding: 50px;
+    background: #a24424;
+  }
+}
+@media (max-width: 394px) {
+  .language-description {
+    margin-top: 260px;
+  }
+  footer {
+    margin-top: 16px;
+    padding: 50px;
+    background: #a24424;
+  }
+}
+@media (max-width: 399px) {
+  .language-description {
+    margin-top: 260px;
+  }
+  footer {
+    margin-top: 16px;
+    padding: 50px;
+    background: #a24424;
+  }
+}
+@media (max-width: 401px) {
+  .language-description {
+    margin-top: 330px;
+  }
+  footer {
+    margin-top: 16px;
+    padding: 50px;
+    background: #a24424;
+  }
+}
+@media (max-width: 402px) {
+  .language-description {
+    margin-top: 300px;
+  }
+  footer {
+    margin-top: 16px;
+    padding: 50px;
+    background: #a24424;
+  }
+}
+
+@media (max-width: 403px) {
+  .language-description {
+    margin-top: 300px;
+  }
+  footer {
+    margin-top: 16px;
+    padding: 50px;
+    background: #a24424;
+  }
+}
+
+@media (max-width: 465px) {
+  .language-description {
+    margin-top: 300px;
+  }
+  footer {
+    margin-top: 16px;
+    padding: 50px;
+    background: #a24424;
+  }
+}
+@media (max-width: 375px) {
+  .projeto-academia {
+    margin-bottom: 128px;
+  }
+}
+@media (max-width: 312px) {
+  .content {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 64px 10px 0 10px;
+  }
+  .personal-description h1 {
+    padding-left: 5px;
+  }
+  .personal-description p {
+    padding-left: 5px;
+  }
+  .name-title {
+    margin-top: 16px;
+    font-size: 2em;
+    text-align: left;
+  }
+  .name-developer {
+    margin-top: 16px;
+    font-size: 1.4em;
+    text-align: left;
+  }
+  .personal-description p {
+    text-align: left;
+  }
+  .links-line > hr {
+    max-width: 20rem;
+    width: 100%;
+    height: 0.05rem;
+    margin-left: 0;
+    border: none;
+    background: #191411;
+  }
+  .logo-name {
+    margin: 64px 0 64px 0;
+    font-size: 1.8em;
+  }
+  .description-myWork {
+    margin-top: 64px;
+  }
+  .containe-myWork {
+    margin-top: 32px;
+  }
+  .description-myWork p {
+    width: 358px;
+    height: 238px;
+    margin-top: 32px;
+    margin-bottom: 128px;
+    font-size: 1.5em;
+    line-height: 35px;
+  }
+  .projeto-academia {
+    width: 360px;
+    height: 250px;
+    margin-top: 32px;
+  }
+  .description-experience > p {
+    margin-top: 36px;
+    width: 352px;
+    height: 247px;
+  }
+  .experience {
+    margin: 500px 0 16px 0;
+    display: block;
+    align-items: center;
+    max-width: 360px;
+    height: 530px;
+  }
+  .description-experience {
+    margin-bottom: 256px;
+    max-width: 352px;
+    height: 310px;
+  }
+  .language-description {
+    position: relative;
+    bottom: 230px;
+    right: 3px;
+  }
+
+  footer {
+    margin-top: 256px;
+    padding: 50px;
+    background: #a24424;
+  }
+  .links-redes-rodape {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 16px;
+  }
+  /*projeto*/
+  .language-description {
+    margin-top: 256px;
+  }
+}
+
+@media (max-width: 283px) {
+  .content {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 64px 10px 0 10px;
+  }
+  .personal-description h1 {
+    padding-left: 5px;
+  }
+  .personal-description p {
+    padding-left: 5px;
+  }
+  .name-title {
+    margin-top: 16px;
+    font-size: 2em;
+    text-align: left;
+  }
+  .name-developer {
+    margin-top: 16px;
+    font-size: 1.3em;
+    text-align: left;
+  }
+  .personal-description p {
+    text-align: left;
+  }
+  .links-line > hr {
+    max-width: 20rem;
+    width: 100%;
+    height: 0.05rem;
+    margin-left: 0;
+    border: none;
+    background: #191411;
+  }
+  .logo-name {
+    margin: 64px 0 64px 0;
+    font-size: 1.8em;
+  }
+  .description-myWork {
+    margin-top: 180px;
+  }
+  .containe-myWork {
+    margin-top: 32px;
+  }
+  .description-myWork p {
+    width: 358px;
+    height: 238px;
+    margin-top: 32px;
+    margin-bottom: 128px;
+    font-size: 1.5em;
+    line-height: 35px;
+  }
+  .projeto-academia {
+    width: 360px;
+    height: 250px;
+    margin-top: 32px;
+  }
+  .description-experience > p {
+    margin-top: 36px;
+    width: 352px;
+    height: 247px;
+  }
+  .experience {
+    margin: 600px 0 16px 0;
+    display: block;
+    align-items: center;
+    max-width: 360px;
+    height: 530px;
+  }
+  .description-experience {
+    margin-bottom: 256px;
+    max-width: 352px;
+    height: 310px;
+  }
+  .language-description {
+    position: relative;
+    bottom: 230px;
+    right: 3px;
+  }
+
+  footer {
+    margin-top: 256px;
+    padding: 40px;
+    background: #a24424;
+  }
+  .links-redes-rodape {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 16px;
+  }
+
+  /*projeto*/
+  .language-description {
+    margin-top: 256px;
   }
 }
