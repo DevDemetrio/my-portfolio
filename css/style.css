@@ -68,8 +68,10 @@
 /*Experiências*/
 .experiencia {
   font-family: 'Open Sans', sans-serif;
+  margin: 16px 10px 0 10px;
 }
 .experiencia h2 {
+  margin-bottom: 16px;
   font-size: 1.5rem;
   font-weight: bold;
 }
@@ -78,21 +80,78 @@
   line-height: 1.8rem;
   font-family: 'Open Sans', sans-serif;
 }
-.linguagens {
-  margin: 0 auto;
-}
 .linguagens ul {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  justify-items: center;
 }
 .linguagens ul li {
-  width: 80px;
-  height: 30px;
+  width: 90px;
+  height: 40px;
+  margin: 10px;
+  position: relative;
   background-color: var(--cor__detalhe-rodape);
   border-radius: 10px;
-  position: relative;
+}
+.linguagens ul li p {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+
+  text-align: center;
+  font-weight: 700;
+  font-size: 1rem;
 }
 
-.linguagens ul li {
-  margin: 10px;
+/*Um pouco do meu trablho*/
+.trabalho {
+  margin: 16px 10px 16px 10px;
+}
+.trabalho h4 {
+  margin-bottom: 16px;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.trabalho p {
+  font-size: 1rem;
+  line-height: 1.8rem;
+  font-family: 'Open Sans', sans-serif;
+}
+/*Meus projetos*/
+.meus__projetos {
+  margin: 0 10px 0 10px;
+}
+.meus__projetos h2 {
+  margin-bottom: 16px;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.foto__projeto__academia {
+  max-width: 100%;
+}
+
+/*rodapé*/
+footer {
+  max-width: 100%;
+  height: 80px;
+  position: relative;
+  margin-top: 32px;
+  background: var(--cor__detalhe-rodape);
+}
+.redes__rodape {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translatey(-50%);
+}
+
+.sociais--icone_rodape {
+  font-size: 1.5rem;
+  text-align: center;
+
+  color: var(--cor__rede_sociais);
+}
+.sociais--icone_rodape:hover {
+  color: var(--cor__bg);
 }
