@@ -1,0 +1,11 @@
+:root {
+  --cor__bg: #ededec;
+  --cor__detalhe-rodape: #a24424;
+  --cor__linguagem: #dbdbdb;
+  --cor__rede_sociais: #191411;
+}
+span {
+  font-weight: bold;
+
+  color: var(--cor__detalhe-rodape);
+}
