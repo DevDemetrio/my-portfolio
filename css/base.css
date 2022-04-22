@@ -10,11 +10,12 @@ span {
   color: var(--cor__detalhe-rodape);
 }
 .botao {
-  width: 90px;
+  width: 110px;
   height: 40px;
   border: none;
   border-radius: 5px;
-  font-size: 1.5rem;
+  text-transform: uppercase;
+  font-size: 1.2rem;
   background-color: var(--cor__detalhe-rodape);
   color: var(--cor__bg);
 }

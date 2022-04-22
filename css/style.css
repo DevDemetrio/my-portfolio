@@ -1,10 +1,16 @@
 /*Topo*/
 
+.foto__perfil {
+  display: block;
+  width: 80%;
+  height: 40%;
+  margin: 0 auto 16px auto;
+}
 .topo {
   margin-bottom: 16px;
 }
 .nome {
-  margin: 32px 0 65px 0;
+  margin: 32px 0 64px 0;
   padding: 10px;
 }
 .nome h1 {
@@ -36,16 +42,57 @@
 .sociais--icone:hover {
   color: var(--cor__detalhe-rodape);
 }
+@media screen and (min-width: 768px) {
+  .topo {
+    margin: 0 20px 0 20px;
+  }
+  .foto__perfil {
+    display: block;
+    width: 50%;
+    height: 40%;
+    margin: 0 auto 16px auto;
+  }
+  .rede__sociais__divisor {
+    margin-bottom: 32px;
+  }
+  main {
+    margin: 0 20px 0 20px;
+  }
+  .nome h1 {
+    font-size: 1.5rem;
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+  }
+}
 
+@media screen and (min-width: 1024px) {
+  body {
+    width: 940px;
+    margin: 0 auto;
+  }
+}
 /*Descrição*/
 
 .descricao__foto__perfil {
   max-width: 100%;
   margin: 0 10px 0 10px;
 }
-.descricao {
-  margin: 16px 0 0 0;
+@media screen and (min-width: 768px) {
+  .descricao__foto__perfil {
+    display: flex;
+    margin: 0 auto;
+  }
+  .descricao {
+    margin-left: 10px;
+  }
+
+  .descricao p {
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+    font-family: 'Open Sans', sans-serif;
+  }
 }
+
 .descricao h2 {
   font-size: 1.5rem;
   font-weight: bold;
@@ -60,8 +107,8 @@
   margin-bottom: 16px;
 }
 .descricao p {
-  font-size: 1rem;
-  line-height: 1.8rem;
+  font-size: 1.2rem;
+  line-height: 2rem;
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -76,8 +123,9 @@
   font-weight: bold;
 }
 .experiencia > p {
-  font-size: 1rem;
-  line-height: 1.8rem;
+  margin-bottom: 6px;
+  font-size: 1.2rem;
+  line-height: 2rem;
   font-family: 'Open Sans', sans-serif;
 }
 .linguagens ul {
@@ -86,7 +134,7 @@
   justify-items: center;
 }
 .linguagens ul li {
-  width: 90px;
+  width: 110px;
   height: 40px;
   margin: 10px;
   position: relative;
@@ -100,22 +148,31 @@
   transform: translate(-50%, -50%);
 
   text-align: center;
+  text-transform: uppercase;
+  color: var(--cor__bg);
   font-weight: 700;
   font-size: 1rem;
 }
 
+@media screen and (min-width: 768px) {
+  .linguagens ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-items: center;
+  }
+}
 /*Um pouco do meu trablho*/
 .trabalho {
   margin: 16px 10px 16px 10px;
 }
-.trabalho h4 {
+.trabalho h2 {
   margin-bottom: 16px;
   font-size: 1.5rem;
   font-weight: bold;
 }
 .trabalho p {
-  font-size: 1rem;
-  line-height: 1.8rem;
+  font-size: 1.2rem;
+  line-height: 2rem;
   font-family: 'Open Sans', sans-serif;
 }
 /*Meus projetos*/
@@ -136,7 +193,7 @@ footer {
   max-width: 100%;
   height: 80px;
   position: relative;
-  margin-top: 32px;
+  margin-top: 64px;
   background: var(--cor__detalhe-rodape);
 }
 .redes__rodape {
@@ -151,6 +208,9 @@ footer {
   text-align: center;
 
   color: var(--cor__rede_sociais);
+}
+.sociais--icone {
+  margin-right: 10px;
 }
 .sociais--icone_rodape:hover {
   color: var(--cor__bg);
@@ -188,14 +248,18 @@ footer {
 }
 .menu__linguagens {
   display: flex;
+  justify-content: center;
 }
 .projetos___linguagens ul li {
   width: 90px;
   height: 40px;
-  margin: 10px;
+
   position: relative;
   background-color: var(--cor__detalhe-rodape);
   border-radius: 10px;
+}
+.menu__linguagens li + li {
+  margin-left: 10px;
 }
 .projetos___linguagens ul li p {
   position: absolute;
@@ -206,4 +270,20 @@ footer {
   text-align: center;
   font-weight: 700;
   font-size: 1rem;
+}
+.projeto__proposito p {
+  font-size: 1rem;
+  line-height: 1.8rem;
+  font-family: 'Open Sans', sans-serif;
+}
+.projeto__proposito h2 {
+  margin: 16px 0 16px 0;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.container__linguagens h2 {
+  margin-bottom: 16px;
+  font-size: 1.5rem;
+  font-weight: bold;
 }
