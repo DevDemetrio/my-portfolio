@@ -1,17 +1,4 @@
 /*Topo*/
-
-.foto__perfil {
-  display: block;
-  width: 80%;
-  height: 40%;
-  margin: 0 auto 16px auto;
-}
-.foto__tablet {
-  display: none;
-}
-.foto__desktop {
-  display: none;
-}
 .topo {
   margin-bottom: 16px;
 }
@@ -53,19 +40,6 @@
     margin: 0 20px 0 20px;
   }
 
-  .foto__perfil {
-    display: block;
-    width: 50%;
-    height: 40%;
-    margin: 0 auto 16px auto;
-  }
-  .foto__mobile {
-    display: none;
-  }
-  .foto__desktop {
-    display: none;
-  }
-
   .rede__sociais__divisor {
     margin-bottom: 32px;
   }
@@ -78,89 +52,84 @@
     font-family: 'Open Sans', sans-serif;
   }
 }
-@media screen and (min-width: 768px) {
-  .foto__perfil {
-    display: block;
-    max-width: 400px;
-    height: 300px;
-  }
-}
-@media sceen and (min-width: 582px) {
-  .foto__perfil {
-    display: block;
-    max-width: 400px;
-    height: 300px;
-  }
-  .foto__mobile {
-    display: none;
-  }
-  .foto__desktop {
-    display: none;
-  }
-}
-@media screen and (min-width: 583px) {
-  .foto__perfil {
-    display: block;
-    max-width: 56%;
-    height: 40%;
-  }
-  .foto__mobile {
-    display: none;
-  }
-  .foto__desktop {
-    display: none;
-  }
-}
-@media screen and (min-width: 796px) {
-  .foto__perfil {
-    display: block;
-    max-width: 500px;
-    height: 300px;
-  }
-  .foto__mobile {
-    display: none;
-  }
-  .foto__desktop {
-    display: none;
-  }
-}
 
 @media screen and (min-width: 1024px) {
   body {
     width: 1024px;
     margin: 0 auto;
   }
-  .foto__perfil {
-    display: block;
-    max-width: 500px;
-    height: 300px;
-  }
-  .foto__mobile {
-    display: none;
-  }
-  .foto__tablet {
-    display: none;
-  }
 }
-/*Descrição*/
+/*Descrição perfil e foto*/
 
 .descricao__foto__perfil {
   max-width: 100%;
   margin: 0 10px 0 10px;
+}
+.foto__perfil {
+  display: block;
+  width: 9.5625rem;
+  height: 11.458125rem;
+  margin: 0 auto 16px auto;
+}
+.foto__tablet {
+  display: none;
+}
+.foto__desktop {
+  display: none;
+}
+@media screen and (min-width: 425px) {
+  .foto__perfil {
+    display: block;
+    width: 13.8125rem;
+    height: 15.19875rem;
+    margin: 0 auto 16px auto;
+  }
+  .foto__tablet {
+    display: none;
+  }
+  .foto__desktop {
+    display: none;
+  }
 }
 @media screen and (min-width: 768px) {
   .descricao__foto__perfil {
     display: flex;
     margin: 0 auto;
   }
+  .foto__perfil {
+    display: block;
+    width: 19.37375rem;
+    height: 21.3125rem;
+    margin: 0 auto 16px auto;
+  }
+  .foto__mobile {
+    display: none;
+  }
+  .foto__desktop {
+    display: none;
+  }
   .descricao {
     margin-left: 10px;
   }
-
   .descricao p {
     font-size: 1.5rem;
     line-height: 1.8rem;
     font-family: 'Open Sans', sans-serif;
+  }
+
+  @media screen and (min-width: 1024px) {
+    .foto__perfil {
+      display: block;
+      width: 19.37375rem;
+      height: 21.3125rem;
+      margin: 0 auto 16px auto;
+    }
+    .foto__mobile {
+      display: none;
+    }
+    .foto__tablet {
+      display: none;
+    }
   }
 }
 
@@ -307,7 +276,6 @@ footer {
   font-size: 1rem;
   line-height: 1.8rem;
   font-family: 'Open Sans', sans-serif;
-  background: chartreuse;
 }
 
 .projeto__imagem img {
@@ -366,3 +334,4 @@ footer {
   font-size: 1.5rem;
   font-weight: bold;
 }
+/**/
