@@ -235,6 +235,61 @@
     margin-bottom: 10px;
   }
 }
+@media screen and (min-width: 805px) {
+  .foto__projeto__academia {
+    display: block;
+
+    margin-bottom: 10px;
+  }
+}
+@media screen and (min-width: 767px) {
+  .foto__projeto__academia {
+    display: block;
+
+    margin-bottom: 10px;
+  }
+}
+
+.projeto__site-noticias {
+  display: block;
+  max-width: 100%;
+  margin: 16px auto 8px auto;
+}
+.desktop__foto__noticia {
+  display: none;
+}
+.mobile__foto__noticia {
+  display: none;
+}
+@media screen and (min-width: 1024px) {
+  .projeto__site-noticias {
+    display: block;
+
+    margin-bottom: 10px;
+  }
+  .desktop__foto__noticia {
+    display: block;
+  }
+  .mobile__foto__noticia {
+    display: none;
+  }
+  .tablet__foto__noticia {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 426px) {
+  .projeto__site-noticias {
+    display: block;
+    margin-bottom: 10px;
+  }
+  .mobile__foto__noticia {
+    display: none;
+  }
+  .desktop__foto__noticia {
+    display: none;
+  }
+}
 
 /*rodapé*/
 footer {
