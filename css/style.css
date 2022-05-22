@@ -173,6 +173,7 @@
   grid-template-columns: 1fr 1fr;
   justify-items: center;
 }
+
 .linguagens ul li {
   width: 110px;
   height: 40px;
@@ -320,73 +321,23 @@ footer {
 }
 
 /*Projetos*/
-.container__projeto {
-  margin: 0 10px 0 10px;
+.projeto {
 }
-.projeto__img {
-  max-width: 100%;
-  margin: 0 10px 0 10px;
+.projeto__academia {
+  width: 300px;
+  margin: 0 auto;
 }
-.projeto__descricao p {
-  font-size: 1rem;
-  line-height: 1.8rem;
-  font-family: 'Open Sans', sans-serif;
+.foto__projeto__academia {
+  display: block;
+  margin: 0 auto;
 }
-
-.projeto__imagem img {
-  max-width: 100%;
-  padding: 0 10px 0 10px;
-}
-.projeto__proposito {
-  max-width: 100%;
-  padding: 0 10px 0 10px;
-}
-
-.container__linguagens {
-  margin: 16px 10px 0 10px;
-}
-.container__linguagens h2 {
-  margin-bottom: 8px;
-}
-.menu__linguagens {
-  display: flex;
-  justify-content: center;
-}
-.projetos___linguagens ul li {
-  width: 90px;
-  height: 40px;
-
-  position: relative;
-  background-color: var(--cor__detalhe-rodape);
-  border-radius: 10px;
-}
-.menu__linguagens li + li {
-  margin-left: 10px;
-}
-.projetos___linguagens ul li p {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-
-  text-align: center;
-  font-weight: 700;
-  font-size: 1rem;
-}
-.projeto__proposito p {
-  font-size: 1rem;
-  line-height: 1.8rem;
-  font-family: 'Open Sans', sans-serif;
-}
-.projeto__proposito h2 {
-  margin: 16px 0 16px 0;
-  font-size: 1.5rem;
+.projeto__academia button {
+  width: 4.875rem;
+  height: 1.8125rem;
+  margin: 0.5rem 0;
+  border-radius: 20px;
+  font-size: 0.9375rem;
   font-weight: bold;
 }
 
-.container__linguagens h2 {
-  margin-bottom: 16px;
-  font-size: 1.5rem;
-  font-weight: bold;
-}
 /**/
