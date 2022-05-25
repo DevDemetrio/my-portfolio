@@ -39,7 +39,6 @@
   .topo {
     margin: 0 20px 0 20px;
   }
-
   .rede__sociais__divisor {
     margin-bottom: 32px;
   }
@@ -321,23 +320,20 @@ footer {
 }
 
 /*Projetos*/
-.projeto {
-}
+
 .projeto__academia {
   width: 300px;
-  margin: 0 auto;
+  margin: 0 auto 2rem auto;
 }
 .foto__projeto__academia {
   display: block;
   margin: 0 auto;
 }
-.projeto__academia button {
-  width: 4.875rem;
-  height: 1.8125rem;
-  margin: 0.5rem 0;
-  border-radius: 20px;
-  font-size: 0.9375rem;
-  font-weight: bold;
-}
 
+@media screen and (min-width: 1024px) {
+  .projeto {
+    display: flex;
+    justify-content: space-between;
+  }
+}
 /**/

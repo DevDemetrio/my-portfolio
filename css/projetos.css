@@ -1,69 +1,49 @@
-.container__projeto {
-  margin: 0 10px 0 10px;
-}
-.projeto__img {
+.apresentacao {
   max-width: 100%;
-  margin: 0 10px 0 10px;
+  margin: 32px 10px 0 10px;
 }
-.projeto__descricao p {
-  font-size: 1rem;
-  line-height: 1.8rem;
-  font-family: 'Open Sans', sans-serif;
+.apresentacao__titulo__img {
+  max-width: 100%;
+  margin: 0.625rem;
+}
+.apresentacao__titulo__img h1 {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.apresentacao__titulo__img img {
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+  height: auto;
 }
 
-.projeto__imagem img {
-  max-width: 100%;
-  padding: 0 10px 0 10px;
+/*Linguagem Projeto*/
+.projeto__linguagens {
+  width: 100%;
+  margin: 0 auto;
 }
-.projeto__proposito {
-  max-width: 100%;
-  padding: 0 10px 0 10px;
+.projeto__linguagens ul {
+  display: grid;
+  grid-template-columns: 120px 120px 120px;
 }
-
-.container__linguagens {
-  margin: 16px 10px 0 10px;
-}
-.container__linguagens h2 {
-  margin-bottom: 8px;
-}
-.menu__linguagens {
-  display: flex;
-  justify-content: center;
-}
-.projetos___linguagens ul li {
-  width: 90px;
+.projeto__linguagens ul li {
+  width: 110px;
   height: 40px;
-
+  margin: 10px;
   position: relative;
   background-color: var(--cor__detalhe-rodape);
   border-radius: 10px;
 }
-.menu__linguagens li + li {
-  margin-left: 10px;
-}
-.projetos___linguagens ul li p {
+.projeto__linguagens ul li p {
   position: absolute;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
 
   text-align: center;
+  text-transform: uppercase;
+  color: var(--cor__bg);
   font-weight: 700;
   font-size: 1rem;
-}
-.projeto__proposito p {
-  font-size: 1rem;
-  line-height: 1.8rem;
-  font-family: 'Open Sans', sans-serif;
-}
-.projeto__proposito h2 {
-  margin: 16px 0 16px 0;
-  font-size: 1.5rem;
-  font-weight: bold;
-}
-
-.container__linguagens h2 {
-  margin-bottom: 16px;
-  font-size: 1.5rem;
-  font-weight: bold;
 }
