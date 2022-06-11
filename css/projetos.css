@@ -4,7 +4,6 @@
 }
 .apresentacao__titulo__img {
   max-width: 100%;
-  margin: 0.625rem;
 }
 .apresentacao__titulo__img h1 {
   margin-bottom: 1rem;
@@ -12,10 +11,20 @@
   font-weight: bold;
 }
 .apresentacao__titulo__img img {
-  display: block;
   width: 100%;
   margin: 0 auto;
   height: auto;
+}
+.apresentacao__img__desktop {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .apresentacao__img__mobile {
+    display: none;
+  }
+  .apresentacao__img__desktop {
+    display: block;
+  }
 }
 
 /*Linguagem Projeto*/
@@ -46,4 +55,12 @@
   color: var(--cor__bg);
   font-weight: 700;
   font-size: 1rem;
+}
+
+/*Paragrafo*/
+.proposito p {
+  margin: 2rem 0.625rem 0 0.625rem;
+  font-size: 1.2rem;
+  line-height: 2rem;
+  font-family: 'Open Sans', sans-serif;
 }

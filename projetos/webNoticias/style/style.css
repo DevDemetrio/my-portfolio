@@ -47,18 +47,27 @@ main {
   padding: 0 10px 0 10px;
 }
 .destaque-dia {
-  max-width: 940px;
+  width: 100%;
   margin: 0 auto 32px auto;
 }
 
 /*segundo destaque*/
 .segundo-destaque {
   max-width: 940px;
-  margin: 0 auto 32px auto;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  margin: 0 auto;
 }
+.segundo-destaque img {
+  display: block;
+  margin: 0 auto 2rem auto;
+}
+@media screen and (min-width: 768px) {
+  .segundo-destaque {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+}
+
 .segundo-destaque h1 {
   text-align: center;
 }
@@ -95,41 +104,54 @@ main {
 }
 .item1 {
   grid-area: item1;
-  margin: 0 auto;
+  margin: 0 auto 1rem 0;
+}
+.item1 p {
+  text-align: center;
 }
 .item2 {
   grid-area: item2;
   display: grid;
   grid-template-columns: 100px 1fr;
+  margin-bottom: 0.5rem;
 }
 
 .item3 {
   grid-area: item3;
   display: grid;
   grid-template-columns: 100px 1fr;
+  margin-bottom: 0.5rem;
 }
 
 .item4 {
   grid-area: item4;
   display: grid;
   grid-template-columns: 100px 1fr;
+  margin-bottom: 0.5rem;
 }
 .item5 {
   grid-area: item5;
   display: grid;
   grid-template-columns: 100px 200px;
+  margin-bottom: 0.5rem;
 }
 .item6 {
   grid-area: item6;
   display: grid;
   grid-template-columns: 100px 1fr;
+  margin-bottom: 0.5rem;
 }
 .item7 {
   grid-area: item7;
   display: grid;
   grid-template-columns: 100px 1fr;
+  margin-bottom: 0.5rem;
 }
-
+@media screen and (min-width: 1024px) {
+  .item1 {
+    margin: 0 auto;
+  }
+}
 @media (max-width: 900px) {
   .container {
     margin: 0 auto;
